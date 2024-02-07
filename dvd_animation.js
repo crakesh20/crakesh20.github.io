@@ -23,14 +23,15 @@
 const body = document.querySelector('body')
 const label = document.querySelector('#label')
 
-let colors = [ '#26de81', '#fc5c65', '#fd9644', '#fed330', '#2bcbba', '#45aaf2', '#4b7bec', '#a55eea', '#ffc1f3', '#76ead7', '#ff9c71', '#32e0c4', '#d291bc', '#fa744f' ]
+// let colors = [ '#26de81', '#fc5c65', '#fd9644', '#fed330', '#2bcbba', '#45aaf2', '#4b7bec', '#a55eea', '#ffc1f3', '#76ead7', '#ff9c71', '#32e0c4', '#d291bc', '#fa744f' ]
+let colors = [ '#000000', '#111111', '#222222', '#333333', '#444444', '#555555', '#666666', '#777777', '#888888', '#999999' ]
 
 let FPS = 60
 
 let width
   , height
-  , velocityX = 1
-  , velocityY = 1
+  , velocityX = 3
+  , velocityY = 3
   , pause = false
   , previousColor = 0
 ;
