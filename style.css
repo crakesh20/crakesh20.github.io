@@ -4,8 +4,8 @@ body {
     padding: 0;
     background-color: #f4f4f4;
     padding-bottom: 60px;
-    overflow: hidden;
-    position: relative;
+/*     overflow: hidden;
+    position: relative; */
 }
 
 /* aBody{
@@ -20,8 +20,8 @@ body {
   position: absolute;
   left: calc(50vw - 150px);
   top: calc(50vh - 28px);
-  width: 300px;
-  height: 56px;
+  width: 100px;
+  height: 30px;
 }
 
 header {
