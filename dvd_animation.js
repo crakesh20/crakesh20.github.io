@@ -93,8 +93,10 @@ const reset = () => {
     width <= label.clientWidth || 
     height <= label.clientHeight;
 
-  label.style.left = 'calc(50vw - 150px)'
-  label.style.top = 'calc(50vh - 28px)'
+  // label.style.left = 'calc(50vw - 150px)'
+  // label.style.top = 'calc(50vh - 28px)'
+  label.style.left = 'calc(50% - 150px)'
+  label.style.top = 'calc(50% - 28px)'
   label.style.stroke = colors[0]
 }
 
