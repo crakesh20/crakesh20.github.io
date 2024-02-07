@@ -8,13 +8,13 @@ body {
     position: relative;
 }
 
-/* aBody{
+aBody{
   width: 100vw;
   height: 100vh;
   background-color: #0f0f13;
   overflow: hidden;
   position: relative;
-} */
+}
 
 #label {
   position: absolute;
