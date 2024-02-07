@@ -4,6 +4,24 @@ body {
     padding: 0;
     background-color: #f4f4f4;
     padding-bottom: 60px;
+    overflow: hidden;
+    position: relative;
+}
+
+/* aBody{
+  width: 100vw;
+  height: 100vh;
+  background-color: #0f0f13;
+  overflow: hidden;
+  position: relative;
+} */
+
+#label {
+  position: absolute;
+  left: calc(50vw - 150px);
+  top: calc(50vh - 28px);
+  width: 300px;
+  height: 56px;
 }
 
 header {
