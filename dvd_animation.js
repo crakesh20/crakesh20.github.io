@@ -31,7 +31,7 @@ let width
   , height
   , velocityX = 1
   , velocityY = 1
-  , pause = true
+  , pause = false
   , previousColor = 0
 ;
 
@@ -84,10 +84,13 @@ const reset = () => {
     document.body.clientHeight
   ;
 
-  pause =
-    width <= label.getBoundingClientRect().width ||
-    height <= label.getBoundingClientRect().height
-  ;
+  // pause =
+  //   width <= label.getBoundingClientRect().width ||
+  //   height <= label.getBoundingClientRect().height
+  // ;
+  pause = 
+    width <= label.clientWidth || 
+    height <= label.clientHeight;
 
   label.style.left = 'calc(50vw - 150px)'
   label.style.top = 'calc(50vh - 28px)'
@@ -102,11 +105,12 @@ const getRandomColor = () => {
     currentColor = Math.floor(Math.random() * colors.length);
   } while (previousColor == currentColor);
   
-  previousColor = currentColor
+  previousColor = currentColor;
   
   return colors[currentColor]
 }
 
+previousColor = -1;
 reset()
 
 window.addEventListener('resize', reset, true)
