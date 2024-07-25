@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    padding-bottom: 60px;
+    overflow: auto
+/*     overflow: hidden;
+    position: relative; */
+}
+
+section {
+    max-width: 30%;
+    margin-left: 50%;
+    padding: 15px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 50%;
+    margin-top: -250px;
+    margin-left: 50%;
+    overflow: auto
+}
+
+img {
+    max-width: 25%;
+    border-radius: 50%;
+    margin-top: -300px;
+    margin-left: 55%;
+    text-align: center;
+}
+
+.vertical-menu {
+    width: 10%; /* Set a width if you like */
+    margin-top: 5%;
+    margin-left: 30%;
+    text-align: center;
+}
+
+.vertical-menu a {
+    background-color: #333; /* Grey background color */
+    color: white; /* White text color */
+    display: block; /* Make the links appear below each other */
+    padding: 20px; /* Add some padding */
+    text-decoration: none; /* Remove underline from links */
+}
+
+.vertical-menu a:hover {
+    background-color: #ccc; /* Dark grey background on mouse-over */
+}
+
+.vertical-menu a.active {
+    background-color: #04AA6D; /* Add a green color to the "active/current" link */
+    color: white;
+}
+
+#block {
+    margin-left: 50%;
+    margin-right: 50%;
+}
+
+.side-by-side {
+    display: inline;
+    margin-top: 5%;
+    margin-left: 50%;
+}
+
+aBody{
+  width: 100vw;
+  height: 100vh;
+  background-color: #0f0f13;
+  overflow: hidden;
+  position: relative;
+}
+
+#label {
+  position: fixed;
+  left: calc(50vw - 150px);
+  top: calc(50vh - 28px);
+  width: 300px;
+  height: 56px;
+  stroke: black;
+  stroke-width: 2px;
+}
+
+header {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+h2 {
+    color: #333;
+}
+
+li {
+    margin-top: 20px;
+    margin-bottom: 2px;
+    margin-right: 10px;
+}
+
+ul {
+    margin-top: 5px;
+    list-style: none;
+    display: inline-block;
+    margin-bottom: 1px;
+}
+
+footer {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+th, td {
+    padding: 10px;
+}
+
+dl {
+    margin-top: 10px
+}
