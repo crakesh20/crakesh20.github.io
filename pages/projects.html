@@ -5,24 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rakesh Chandraraj - Personal Website</title>
     <link rel="stylesheet" href="../style/style.css">
-    <link rel="stylesheet" href="../style/transition.css" />
 </head>
 <body>
 
     <header>
         <h1>Rakesh Chandraraj</h1>
-        <p>Senior studying Computer Science at Virginia Tech</p>
+        <p>Computer Science Graduate</p>
     </header>
 
-    <div class="vertical-menu">
-        <a href="./index.html" onclick="transitionToPage('/index.html')">Home</a>
-        <a href="./skills.html" onclick="transitionToPage('/skills.html')">Skills</a>
-        <a href="./projects.html" class="active" onclick="transitionToPage('/projects.html')">Projects</a>
-        <a href="./hobbies.html"onclick="transitionToPage('/hobbies.html')">Hobbies</a>
-    </div>
-        
-    <main id="swup" class="transition-fade">
-        <section id="projects">
+    <div class="side-by-side"> 
+        <div class="vertical-menu">
+            <a href="./index.html" onclick="transitionToPage('/index.html')">Home</a>
+            <a href="./skills.html" onclick="transitionToPage('/skills.html')">Skills</a>
+            <a href="./projects.html" class="active" onclick="transitionToPage('/projects.html')">Projects</a>
+            <a href="./hobbies.html"onclick="transitionToPage('/hobbies.html')">Hobbies</a>
+        </div>
+        <section>
             <h2 style="text-align: center">Projects</h2>
             <li><strong>Author Website</strong></li>
                 <ul>Built a website to advertise my writing projects (novels and novellas).</ul>
@@ -45,7 +43,7 @@
             <br>
             <br>
         </section>
-    </main>
+    </div>
 
     <footer>
         <p>&copy; 2024 Rakesh Chandraraj</p>
