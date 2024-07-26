@@ -17,21 +17,24 @@ body {
     position: relative; */
     margin: 0;
     /* padding: 0; */
+    font-size: 15px;
 }
 
 section {
     max-width: 60%;
     margin-left: 50%;
-    padding: 15px;
+    padding-top: 2%;
+    padding-left: 3%;
+    padding-bottom: 2%;
     background-color: white;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin-bottom: 50%;
     margin-top: -300px;
     margin-left: 30%;
     overflow: auto;
-    font-size: 20;
     /* margin: 0; */
+    overflow-y: auto;
+
 }
 
 img {
@@ -96,10 +99,6 @@ aBody{
   height: 56px;
   stroke: black;
   stroke-width: 2px;
-}
-
-.skill {
-
 }
 
 h2 {
