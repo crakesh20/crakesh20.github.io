@@ -19,17 +19,20 @@
     }
 }
 
-.mobile {
+/* .mobile {
 
-}
+} */
 
-@media (max-width: 400px) {
+@media (max-width: 600px) {
     .mobile {
         margin-top: 20px;
         margin-left: auto;
         margin-right: auto;
         /* position: absolute; */
         margin-bottom: 20%;
+        max-width: 70%;
+        padding-left: 5%;
+        padding-right: 5%;
     }
 }
 
@@ -95,7 +98,7 @@ footer {
     background-color: #000000;
     color: white;
     text-align: center;
-    padding: 1em 0;
+    padding: 0.5em;
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -211,17 +214,18 @@ aBody{
 }
 
 li {
-    margin-top: 20px;
-    margin-bottom: 2px;
-    margin-right: 10px;
+    /* margin-top: 20px; */
+    /* margin-bottom: 2px; */
+    margin-left: -10px;
 }
 
+/* 
 ul {
     margin-top: 5px;
     list-style: none;
     display: block;
     margin-bottom: 1px;
-}
+} */
 
 .center {
     display: block;
