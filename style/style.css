@@ -1,40 +1,40 @@
 .me {
-    height: 100%;
-    max-width: 25%;
-    border-radius: 50%;
-    margin-top: -300px;
+    height: 600px;
+    width: 500px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
-    /* text-align: center; */
+    margin-top: -300px;
+    margin-bottom: auto;
+    padding-bottom: 70px;
+    /* width: 50%; */
 }
 
-@media (max-width: 600px) {
-    .me {
-        /* display: none; */
-        margin-top: auto;
-        padding-top: 20px;
-        max-width: 200%;
-        padding-bottom: 100px;
-    }
+.vertical-menu {
+    width: 10%; 
+    margin-top: 5%;
+    margin-left: 10%;
+    text-align: center;
+    font-size: 20;
 }
 
-/* .mobile {
+.vertical-menu a {
+    background-color: #333; /* Grey background color */
+    color: white; /* White text color */
+    display: block; /* Make the links appear below each other */
+    padding: 20px; 
+    text-decoration: none; /* Remove underline from links */
+    text-align: center; /* Center the text within each link */
+    margin: 0 auto; /* Center the links themselves */
+}
 
-} */
+.vertical-menu a:hover {
+    background-color: #ccc; /* Dark grey background on mouse-over */
+}
 
-@media (max-width: 600px) {
-    .mobile {
-        margin-top: 50px;
-        margin-left: auto;
-        margin-right: auto;
-        /* position: absolute; */
-        margin-bottom: 20%;
-        max-width: 70%;
-        padding-left: 5%;
-        padding-right: 5%;
-    }
+.vertical-menu a.active {
+    background-color: #04AA6D; /* Add a green color to the "active/current" link */
+    color: white;
 }
 
 footer {
@@ -50,13 +50,56 @@ footer {
     margin-top: auto;
 }
 
-.hide_footer {
+@media (orientation: portrait) and (max-width: 600px) {
+    .me {
+        /* display: none; */
+        margin-top: auto;
+        padding-top: 10px;
+        width: 70%;
+        /* max-width: 200%; */
+        padding-bottom: 100px;
+        height: 50%;
+    }
 
+    .mobile {
+        margin-top: 40px;
+        margin-left: auto;
+        margin-right: auto;
+        /* position: absolute; */
+        margin-bottom: 20%;
+        max-width: 70%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .vertical-menu {
+        margin-top: 0%;
+        margin-left: auto; /* Center the vertical menu on smaller screens */
+        margin-right: auto; /* Center the vertical menu on smaller screens */
+        width: 50%; /* Adjust the width as needed */
+    }
 }
 
-@media (max-width: 600px) {
-    .hide_footer {
-        display: hidden;
+@media (orientation: landscape) and (max-width: 1000px) {
+    .me {
+        height: 300px;
+        width: 300px;
+        padding-top: 7%;
+        padding-bottom: 70px;
+        margin-left: 30%;
+        padding-left: 20%;    }
+
+    .mobile {
+        margin-top: -250px;
+        margin-left: 40%;
+        margin-right: 10%;
+        margin-bottom: 20%;
+        max-width: 70%;
+        padding-left: -5%;
+    }
+
+    .vertical-menu {
+        width: 20%; /* Adjust the width as needed */
     }
 }
 
@@ -129,76 +172,6 @@ h2 {
     /* display: inline-block; */
     margin-top: auto;
     position: fixed;
-}
-
-.vertical-menu {
-    width: 10%; 
-    margin-top: 5%;
-    margin-left: 10%;
-    text-align: center;
-    font-size: 20;
-}
-
-@media (max-width: 600px) {
-    .vertical-menu {
-        margin-top: 0%;
-        margin-left: auto; /* Center the vertical menu on smaller screens */
-        margin-right: auto; /* Center the vertical menu on smaller screens */
-        width: 50%; /* Adjust the width as needed */
-    }
-}
-
-.vertical-menu a {
-    background-color: #333; /* Grey background color */
-    color: white; /* White text color */
-    display: block; /* Make the links appear below each other */
-    padding: 20px; 
-    text-decoration: none; /* Remove underline from links */
-    text-align: center; /* Center the text within each link */
-    margin: 0 auto; /* Center the links themselves */
-}
-
-
-/* .vertical-menu {
-    width: 10%; 
-    margin-top: 5%;
-    margin-left: 10%;
-    text-align: center;
-    font-size: 20;
-}
-
-@media (max-width: 600px) {
-    .vertical-menu {
-        margin-top: 0%;
-        margin-left: 40%;
-    }
-}
-
-.vertical-menu a {
-    background-color: #333; 
-    color: white; 
-    display: block; 
-    padding: 20px; 
-    text-decoration: none; 
-    text-align: center;
-} */
-
-/* @media (max-width: 600px) {
-    .vertical-menu a {
-        margin-top: 0%;
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center;
-    }
-} */
-
-.vertical-menu a:hover {
-    background-color: #ccc; /* Dark grey background on mouse-over */
-}
-
-.vertical-menu a.active {
-    background-color: #04AA6D; /* Add a green color to the "active/current" link */
-    color: white;
 }
 
 #block {
